@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageHinhanh"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@null"
+                android:src="@drawable/light" />
+            <TextView
+                android:id="@+id/textviewSoluongcon"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Số Lượng Còn:"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textviewTenSanPham"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bóng đèn ngủ"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/textviewHang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hẵng:Philip"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/textviewKichthuoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Kích Thước: 5x10 cm"/>
+            <TextView
+                android:id="@+id/textviewBaohanh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bảo Hành"
+                android:textColor="@color/black"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/textviewGia"
+                android:paddingRight="10dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:gravity="right|center"
+                android:text="125.000 đ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

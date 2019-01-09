@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp">
+
+        <EditText
+            android:id="@+id/Editlink"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/design_edittext_while"
+            android:hint="Link online" />
+
+        <Button
+            android:id="@+id/buttonFilefromSDcard"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/design_button_grey"
+            android:text="File from SDcard" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="9"
+        android:orientation="horizontal">
+
+        <Button
+            android:textSize="20dp"
+            android:id="@+id/buttonQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="70dp"
+            android:background="@drawable/design_circle_question"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="70dp" />
+
+        <TextView
+            android:id="@+id/TextviewNhapnhuthenao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="22dp"
+            android:paddingLeft="10dp"
+            android:text="Nhập như thế nào nhỉ?"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="22dp" />
+    </RelativeLayout>
+
+</LinearLayout>
