@@ -67,5 +67,5 @@ public class MainCommodityActivity extends AppCompatActivity {
         canvas.drawText(text, 0, baseline, paint);
         return image;
     }
-//    Thử commit
+
 }
